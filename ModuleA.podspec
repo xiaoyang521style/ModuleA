@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ModuleA'
-  s.version          = '0.1.2'
+  s.name             = 'ModuleA_ZY'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of ModuleA.'
 
 # This description is used to generate tags and improve search results.

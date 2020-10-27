@@ -9,7 +9,7 @@
 #import "ModuleAViewController.h"
 @implementation Target_ModuleA
 - (UIViewController *)Action_viewController:(NSDictionary *)params {
-    ModuleAViewController *VC = [[ModuleAViewController alloc] init];
+    ModuleAViewController *VC = [[ModuleAViewController alloc] initWithParams:params];
     return VC;
 }
 

@@ -10,7 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Target_ModuleA : NSObject
-- (UIViewController *)Action_viewController:(NSDictionary *)params;
+- (UIViewController *)Action_viewController:(NSDictionary *)params callback:(void(^)(NSString *result))callback;
+
 @end
 
 NS_ASSUME_NONNULL_END
